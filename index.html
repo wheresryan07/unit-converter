@@ -10,22 +10,23 @@
   <body>
     <div class="container" id="conversion-header">
       <h1>Metric/Imperial Unit Conversion</h1>
-      <input type="text" name="input" id="conversion-input" />
+      <input type="number" name="input" id="conversion-input" />
       <button id="conversion-btn">Convert</button>
     </div>
     <div class="container" id="conversion-body">
         <div class="conversion-container" id="length-container">
             <h3>Length (Meter/Feet)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, illum.</p>
+            <p id="length-el"></p>
         </div>
         <div class="conversion-container" id="volume-container">
             <h3>Volume (Liters/Gallons)</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, perferendis.</p>
+            <p id="volume-el"></p>
         </div>
         <div class="conversion-container" id="mass-container">
             <h3>Mass (Kilograms/Pounds)</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, est?</p>
+            <p id="mass-el"></p>
         </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
